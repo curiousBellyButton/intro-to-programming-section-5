@@ -13,3 +13,7 @@ main {
 #reset {
   margin: 20px;
 }
+
+#negative, #below-100, #no-zero {
+  color: red;
+}
