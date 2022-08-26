@@ -82,15 +82,13 @@ function checkGuess() {
   guessInput.value = '';
   // resetButton.style.display = '';
 
-  if(guess < 0) { 
+  if(guess < 1) { 
     negativeMesssage.style.display = '';
     resetButton.style.display = 'none';
   } else if(guess > 100) { 
     belowOneHundredMesssage.style.display = '';
     resetButton.style.display = 'none';
-  } else if(guess === 0) {
-    zeroMesssage.style.display = '';
-    resetButton.style.display = 'none';
+  }
   } else {
     resetButton.style.display = '';
   } 
